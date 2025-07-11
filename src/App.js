@@ -1,17 +1,18 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <section style={{ padding: '2rem' }}>
-        <h1>Hello, I’m Jiya 👋</h1>
-        <p>Welcome to my personal portfolio in React!</p>
-      </section>
-    </div>
+      <Hero
+        name="Jiya Chugh"
+        title="Aspiring Software Engineer"
+        description="I’m a passionate engineering student learning React, building projects, and exploring the world of frontend development one commit at a time."
+      />
+    </>
   );
 }
 
 export default App;
-
